@@ -1,6 +1,6 @@
 ![CI logo](assets/images/aor-services.png)
 
-Welcome to the redevelopment of AOR Services - a commercial WordPress website converted to a HTML/CSS/JS website as part of the Code Institute Full Stck Developer Course.
+Welcome to the redevelopment of AOR Services - a commercial WordPress website converted to a HTML/CSS/JS website as part of the Code Institute Full Stack Developer Course.
 This is Project 1 for John C. for submission in August 2022.
 
 

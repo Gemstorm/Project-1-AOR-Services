@@ -10,17 +10,47 @@ body {
     font-family: Montserrat, Oswald;
 }
 
-#header-top {
+#header-bar {
+	width: 100%;
+   	max-width: 100%;
+	padding: 20px 30px 20px 30px;
 	background-color:#3399FF;
 }
 
+/* Return to Page Top */
+.scroll-up {
+  position: fixed;
+  display: none;
+  bottom: 7px;
+  right: 7px;
+  z-index: 999;
+}
+
+.scroll-up a {
+  background: #fff;
+  display: block;
+  height: 28px;
+  width: 28px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 14px;
+  color: #000;
+  opacity: 0.6;
+  border-radius: 2px;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+  opacity: 1;
+  color: #000;
+}
 
 
 /* Media queries */
 
 /* For superwide screens sizes: 3000px wide and smaller */
 @media screen and (max-width: 3000px) {
-	#header-top {
+	#header-bar {
 		width: 100%;
     	max-width: 100%;
 		padding: 20px 30px 20px 30px;
@@ -31,7 +61,7 @@ body {
 
 /* For larger screens sizes: 1200px wide and smaller */
 @media screen and (max-width: 1200px) {
-	#header-top {
+	#header-bar {
 		width: 100%;
     	max-width: 100%;
 		padding: 20px 30px 20px 30px;
@@ -43,7 +73,7 @@ body {
 /* For medium sized screen sizes: 950px wide or smaller */
 @media screen and (max-width: 950px) {
 
-	#header-top {
+	#header-bar {
 		width: 100%;
     	max-width: 100%;
 		padding: 20px 30px 20px 30px;
@@ -54,7 +84,7 @@ body {
 
 /* For small sized screen sizes: 800px wide or smaller */
 @media screen and (max-width: 800px) {
-    #header-top {
+    #header-bar {
 		width: 100%;
     	max-width: 100%;
 		padding: 20px 30px 20px 30px;
@@ -63,10 +93,15 @@ body {
 
 /* For really small sized screen sizes: 300px wide or smaller */
 @media screen and (max-width: 350px) {
-    #header-top {
+    #header-bar {
 		display: none;
     }
 
+	#logo {
+		width: 100px;
+		}	
+		
+	
 
 }
 
