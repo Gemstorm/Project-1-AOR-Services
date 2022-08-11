@@ -3,45 +3,45 @@
 Welcome to the redevelopment of AOR Services - a commercial WordPress website converted to a HTML/CSS/JS website as part of the Code Institute Full Stack Developer Course. This is Milestone Project 1 for John C. for submission in August 2022.
 
 # Table of Contents
-* [Introduction](https://github.com/KNFullStack/KN-Fitness#introduction)
-* [User Experience Design](https://github.com/KNFullStack/KN-Fitness#user-experience-design)  
-  * [User Stories](https://github.com/KNFullStack/KN-Fitness#user-stories)
-    * [First Time Visitors](https://github.com/KNFullStack/KN-Fitness#first-time-visitors)
-    * [Returning Visitors](https://github.com/KNFullStack/KN-Fitness#returning-visitors)
-    * [Frequent Users](https://github.com/KNFullStack/KN-Fitness#frequent-users)
-  * [Structure](https://github.com/KNFullStack/KN-Fitness#structure)
-  * [Design](https://github.com/KNFullStack/KN-Fitness#design)
-    * [Colors](https://github.com/KNFullStack/KN-Fitness#colors)
-    * [Typography](https://github.com/KNFullStack/KN-Fitness#typography)
-    * [Images](https://github.com/KNFullStack/KN-Fitness#images)
-    * [Wireframes](https://github.com/KNFullStack/KN-Fitness#wireframes)
-    * [Design Deviations](https://github.com/KNFullStack/KN-Fitness#design-deviations)
-  * [Limitations](https://github.com/KNFullStack/KN-Fitness#limitations)
-* [Features](https://github.com/KNFullStack/KN-Fitness#features)
-  * [Current Features](https://github.com/KNFullStack/KN-Fitness#current-features)
-  * [Future Features](https://github.com/KNFullStack/KN-Fitness#future-features)
-* [Technologies](https://github.com/KNFullStack/KN-Fitness#technologies)
-  * [Languages](https://github.com/KNFullStack/KN-Fitness#languages)
-  * [Libraries, Frameworks & Programs Used](https://github.com/KNFullStack/KN-Fitness#libraries-frameworks--programs-used)
-* [Testing](https://github.com/KNFullStack/KN-Fitness#testing)
-  * [Validation](https://github.com/KNFullStack/KN-Fitness#validation)
-    * [HTML Validation](https://github.com/KNFullStack/KN-Fitness#html-validation)
-    * [CSS Validation](https://github.com/KNFullStack/KN-Fitness#css-validation)
-  * [User Scenarios - Testing](https://github.com/KNFullStack/KN-Fitness#user-scenarios---testing)
-    * [First Time User](https://github.com/KNFullStack/KN-Fitness#first-time-user)
-    * [Returning User](https://github.com/KNFullStack/KN-Fitness#returning-user)
-    * [Frequent User](https://github.com/KNFullStack/KN-Fitness#frequent-user)
-  * [Known Bugs](https://github.com/KNFullStack/KN-Fitness#known-bugs)
-  * [Lighthouse Results](https://github.com/KNFullStack/KN-Fitness#lighthouse-results)
-    * [Performance](https://github.com/KNFullStack/KN-Fitness#performance)
-    * [Accessibility](https://github.com/KNFullStack/KN-Fitness#accessibility)
-* [Deployment](https://github.com/KNFullStack/KN-Fitness#deployment)
-   * [Project Creation](https://github.com/KNFullStack/KN-Fitness#project-creation)
-   * [Publishing](https://github.com/KNFullStack/KN-Fitness#publishing)
-   * [Local Clone](https://github.com/KNFullStack/KN-Fitness#local-clone)
-* [Acknowledgements](https://github.com/KNFullStack/KN-Fitness#acknowledgements)
-  * [Code](https://github.com/KNFullStack/KN-Fitness#code)
-  * [Media](https://github.com/KNFullStack/KN-Fitness#media)
+* [Introduction](https://github.com/Gemstorm/Project-1-AOR-Services#introduction)
+* [User Experience Design](https://github.com/Gemstorm/Project-1-AOR-Services#user-experience-design)  
+  * [User Stories](https://github.com/Gemstorm/Project-1-AOR-Services#user-stories)
+    * [First Time Visitors](https://github.com/Gemstorm/Project-1-AOR-Services#first-time-visitors)
+    * [Returning Visitors](https://github.com/Gemstorm/Project-1-AOR-Services#returning-visitors)
+    * [Frequent Users](https://github.com/Gemstorm/Project-1-AOR-Services#frequent-users)
+  * [Structure](https://github.com/Gemstorm/Project-1-AOR-Services#structure)
+  * [Design](https://github.com/Gemstorm/Project-1-AOR-Services#design)
+    * [Colors](https://github.com/Gemstorm/Project-1-AOR-Services#colors)
+    * [Typography](https://github.com/Gemstorm/Project-1-AOR-Services#typography)
+    * [Images](https://github.com/Gemstorm/Project-1-AOR-Services#images)
+    * [Wireframes](https://github.com/Gemstorm/Project-1-AOR-Services#wireframes)
+    * [Design Deviations](https://github.com/Gemstorm/Project-1-AOR-Services#design-deviations)
+  * [Limitations](https://github.com/Gemstorm/Project-1-AOR-Services#limitations)
+* [Features](https://github.com/Gemstorm/Project-1-AOR-Services#features)
+  * [Current Features](https://github.com/Gemstorm/Project-1-AOR-Services#current-features)
+  * [Future Features](https://github.com/Gemstorm/Project-1-AOR-Services#future-features)
+* [Technologies](https://github.com/Gemstorm/Project-1-AOR-Services#technologies)
+  * [Languages](https://github.com/Gemstorm/Project-1-AOR-Services#languages)
+  * [Libraries, Frameworks & Programs Used](https://github.com/Gemstorm/Project-1-AOR-Services#libraries-frameworks--programs-used)
+* [Testing](https://github.com/Gemstorm/Project-1-AOR-Services#testing)
+  * [Validation](https://github.com/Gemstorm/Project-1-AOR-Services#validation)
+    * [HTML Validation](https://github.com/Gemstorm/Project-1-AOR-Services#html-validation)
+    * [CSS Validation](https://github.com/Gemstorm/Project-1-AOR-Services#css-validation)
+  * [User Scenarios - Testing](https://github.com/Gemstorm/Project-1-AOR-Services#user-scenarios---testing)
+    * [First Time User](https://github.com/Gemstorm/Project-1-AOR-Services#first-time-user)
+    * [Returning User](https://github.com/Gemstorm/Project-1-AOR-Services#returning-user)
+    * [Frequent User](https://github.com/Gemstorm/Project-1-AOR-Services#frequent-user)
+  * [Known Bugs](https://github.com/Gemstorm/Project-1-AOR-Services#known-bugs)
+  * [Lighthouse Results](https://github.com/Gemstorm/Project-1-AOR-Services#lighthouse-results)
+    * [Performance](https://github.com/Gemstorm/Project-1-AOR-Services#performance)
+    * [Accessibility](https://github.com/Gemstorm/Project-1-AOR-Services#accessibility)
+* [Deployment](https://github.com/Gemstorm/Project-1-AOR-Services#deployment)
+   * [Project Creation](https://github.com/Gemstorm/Project-1-AOR-Services#project-creation)
+   * [Publishing](https://github.com/Gemstorm/Project-1-AOR-Services#publishing)
+   * [Local Clone](https://github.com/Gemstorm/Project-1-AOR-Services#local-clone)
+* [Acknowledgements](https://github.com/Gemstorm/Project-1-AOR-Services#acknowledgements)
+  * [Code](https://github.com/Gemstorm/Project-1-AOR-Services#code)
+  * [Media](https://github.com/Gemstorm/Project-1-AOR-Services#media)
 
 You can find the published website here: [KN Fitness](https://knfullstack.github.io/KN-Fitness/index.html).
 # Introduction
@@ -258,18 +258,18 @@ Common Git commands were used as follows:
 
 ## Publishing
 To publish the project I performed the following steps:
-1. Navigated to the project's [Github page](https://github.com/KNFullStack/KN-Fitness).
+1. Navigated to the project's [Github page](https://github.com/Gemstorm/Project-1-AOR-Services).
 2. Clicked on the "Settings" button.
 3. Clicked on the "Pages" button.
 4. Under the "Source" heading, changed the "Branch" setting from "None" to "Main", then clicked save.
 5. This gave a link to the [published website](https://knfullstack.github.io/KN-Fitness/).
 ## Local Clone
 To create a local clone of the project you can follow the steps below:
-1. Navigate to the project's [Github page](https://github.com/KNFullStack/KN-Fitness).
+1. Navigate to the project's [Github page](https://github.com/Gemstorm/Project-1-AOR-Services).
 2. Click the "Code" dropdown button.
 3. From here there are two options:
      * Option 1: Click the "Download ZIP" button to download the files. This can be unzipped locally and opened with your preferred IDE.
-     * Option 2: Copy the link from the HTTPS box shown. Then open your preferred IDE of choice and in the terminal window of your preferred directory, use the command "git clone" followed by the link that was copied. For example "git clone https://github.com/KNFullStack/KN-Fitness.git". This will clone the files in the selected directory.
+     * Option 2: Copy the link from the HTTPS box shown. Then open your preferred IDE of choice and in the terminal window of your preferred directory, use the command "git clone" followed by the link that was copied. For example "git clone https://github.com/Gemstorm/Project-1-AOR-Services.git". This will clone the files in the selected directory.
 # Acknowledgements
 Would like to say thank you to my mentor Spencer Barriball for his help and guidance throughout the project.
 ## Code
