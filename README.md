@@ -43,7 +43,7 @@ Welcome to the redevelopment of AOR Services - a commercial WordPress website co
   * [Code](https://github.com/Gemstorm/Project-1-AOR-Services#code)
   * [Media](https://github.com/Gemstorm/Project-1-AOR-Services#media)
 
-You can find the published website here: [Gemstorm](https://github.com/Gemstorm/Project-1-AOR-Services/index.html).
+You can find the published website here: [Project 1: AOR Services](https://github.com/Gemstorm/Project-1-AOR-Services/index.html).
 # Introduction
 
 The project is part of a Full Stack Developer course run by CodeInstitute. This is Milestone Project 1. This project was to create a website for a local, family run gym that is looking to reach out to new potential members in order to encourage more visits and memberships.
