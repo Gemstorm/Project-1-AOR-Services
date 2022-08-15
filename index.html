@@ -14,13 +14,12 @@
 <body>
 
 <div id="main">
-	
-	<header id="page-top" class="temp_head">
-	<div id="header-bar"><i class="fa-solid fa-phone"></i> +353 (1) 821 1111    <i class="fa-solid fa-envelope"></i> 
-		<a href="mailto:info@aorservices.ie?subject=Website Enquiry">info@aorservices.ie</a></div>
-		<a href="index.html"><img id="site-logo" src="assets/images/aor-services.png" alt="AOR Services" height="80" width="175" ></a>
 
-        <nav>
+	<header class="fixed-top">
+	<div id="header-bar"><i class="fa-solid fa-phone"></i> +353 (1) 821 1111 <i class="fa-solid fa-envelope"></i> 
+		<a href="mailto:info@aorservices.ie?subject=Website Enquiry">info@aorservices.ie</a></div>
+        <nav id="nav-bar">
+		<a href="index.html"><img id="site-logo" src="assets/images/aor-services.png" alt="AOR Services - Home Page" height="80" width="175" ></a>
             <ul id="site-menu">
                 <li>
                     <a href="#contact-us">Contact Us</a>
@@ -42,8 +41,8 @@
     </header>
 
 
-	<section id="hero-outer">
-        <div id="hero-image"></div>
+	<section id="banner-outer">
+        <div id="banner-image"></div>
         <div class="slide-title">
             <h1>AOR SERVICES</h1>
             <h2>Here When You Need Us</h2>
@@ -55,28 +54,79 @@
 	<h3>Our team are experts in handling claims of all sizes and delivering a turnkey service. We manage the full claims process and take the hassle away from you while ensuring the best settlement to you. We provide a One Stop Shop of Claim Management Services for both individuals and companies.</h3>
 	</section>        
 
+	<section id="about-us">
+        <h1 id="welcome">About Us</h1>
+        <div id="left-about">
+            <div class="left-about-heading">
+                <h2>
+				<img alt="Ireland's premier Insurance Loss Assessing Service" src="assets/images/about-us-la.png" height="45" width="45"> 
+				Loss Assessors</h2>
+                <hr>
+                <p>Ireland’s premier Insurance Loss Assessing Service. We are experts at handling claims of all sizes for both domestic and commercial clients.</p>
+            </div>
+            <div class="left-about-heading">
+                <h2><img alt="Our Project Managament skills ensure high quality and timely project delivery" src="assets/images/about-us-pm.png" height="45" width="45"> 
+                Project Management</h2>
+                <hr>
+                <p>Our Project Management skills are applied throughout all our Service offerings to ensure high quality and timely project delivery.</p>
+            </div>
+        </div>
+        <div id="right-about">
+            <div class="right-about-heading">
+                <h2><img alt="A full range of Quantity Surveying" src="assets/images/about-us-qs.png" height="45" width="45"> 
+                Quantity Surveyors</h2>
+                <hr>
+                <p>We provide a full range of professional Quantity Surveying for our clients across all sectors.</p>
+            </div>
+            <div class="right-about-heading">
+                <h2><img alt="We will ensure you receive your full entitlement" src="assets/images/about-us-cm.png" height="45" width="45"> 
+                Claim Management</h2>
+                <hr>
+                <p>The Insurance claims procedure can be complex. We are here to help and ensure you receive your full entitlement.</p>
+            </div>
+        </div>
+
+    </section>
+
 <hr style="clear: both; height: 100px;">
 
-	<section id="about-us">About Us</section>
 	<section id="services">Services</section>
+
+
+<hr style="clear: both; height: 100px;">
+
 	<section id="case-studies">Case Studies</section>
 	<section id="contact-us">Contact Us</section>		
 
-	<div class="scroll-up" style="display: block;"><a href="#page-top"><i class="fa-solid fa-angles-up fa-2xl"></i></a></div>
+	<div class="scroll-up" style="display: block;"><a href="#banner-outer"><i class="fa-solid fa-angles-up fa-2xl"></i></a></div>
 
 <hr style="clear: both; height: 100px;">
 
 	<footer class="temp_foot">
-		<div id="footer-bar">© AOR Support Services Ltd. | All rights reserved.</div>
+		<div id="footer-bar">&copy; AOR Support Services Ltd. | All Rights Reserved.</div>
 	</footer>
 
 </div>
 
 
-</body>
 
 <!-- Load Supporting Scripts  -->
+<!-- Sticky Header -->
+<script type="text/javascript">
+window.onscroll = function() {myFunction()};
 
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
 
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
 
 </html>
