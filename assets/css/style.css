@@ -514,7 +514,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #3399FF;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -522,12 +522,105 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #99CCFF;
+}
+
+
+/* Style Footer */
+
+#company-footer-cover {
+	width: 100%;
+	height: 200px;
+	background-color: #3399FF;
+	padding-bottom: 70px;
+}
+
+#company-footer {
+	background-color: #3399FF;
+	width: 100%;
+  	box-sizing: border-box;
+	margin: 0 auto;
+	width: 70%;
+	padding: 20px 0 50px 0;
+	color: #fff;
+    font-family: Inconsolata, sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	font-size: medium;
+
+}
+
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 20px;
+}
+
+h2 {
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+a {
+	color: #fff;
+	font-weight: bolder;
+	font-size: medium;
+	text-decoration: none;
 }
 
 
 
 
+#company-footer .column {
+    float: left;
+	width: 33.33%;
+	padding: 0 50px;
+	height: 150px; /* Should be removed. Only for demonstration */
+}
+
+#company-footer .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+/* Trim left and right margins to account for padding */
+#company-footer .row {
+	margin: 0 -5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Style Footer Bar */
+#footer-bar {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #000;
+   color: white;
+   text-align: center;
+   font-size: 18px;
+   padding: 10px 0 10px 0;
+   
+}
 
 
 
@@ -566,20 +659,6 @@ input[type=submit]:hover {
 }
 
 
-
-/* Style Footer */
-#footer-bar {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #000;
-   color: white;
-   text-align: center;
-   font-size: 18px;
-   padding: 10px 0 10px 0;
-   
-}
 
 
 /* Media queries */
