@@ -2,14 +2,28 @@
 @import url(media.css);
 
 /* General Site Styling */
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
+/* Hack to Separate Sections */
+	.div-separator {
+	clear: both;
+	height: 5px;
+	padding-top: 5px;
+	}
 /* Header, Logo and Menu Styling */
 
 #site-header {
-    position: absolute;
-    top: 0;
-    left: 0;
+   position: absolute;
+   top: 0;
+   left: 0;
 	background-color:#3399FF;
 	color:#fff;
 	width: 100%;
@@ -31,20 +45,22 @@
 }
 
 #menu-bar {
-    position: fixed;
-    top: 41px;
-    left: 0;
+	position: absolute;
 	box-shadow:	0 0 20px rgb(0 0 0 / 25%) !important;
-    height: auto;
-    width: 100%;
+   top: 41px;
+   left: 0;
+   height: auto;
+   width: 100%;
 	background-color:#fff;
-    padding-bottom: 15px;
+   padding-bottom: 15px;
+   clear:both;
 }
 
 #site-logo {
     position: fixed;
     top: 45px;
     left: 30px;
+    clear:both;
 }
 
 #site-menu {
@@ -267,6 +283,343 @@
     border-radius: 50%;
 }
 
+/* Services Styling */
+
+#services {
+   text-align: center;
+	box-sizing: border-box;	
+	background-image: linear-gradient(360deg,#f4f4f4 0%,#ffffff 100%)!important;
+	overflow:	hidden;
+	padding-bottom: 50px;
+}
+
+#services h1 {
+	margin-bottom: 30px;
+	font-family: Montserrat, san-serif;
+}
+
+#services h3 {
+	margin-bottom: 30px;
+	font-family: Inconsolata, san-serif;
+	font-weight:500;
+	font-size: 15px;
+}
+
+/* Float three columns side by side i.e. 33% */
+
+.row-of-three {
+	margin: 0 auto;
+	width: 70%;
+}
+
+.row-of-three .column {
+  float: left;
+  width: 25%;
+  padding: 0 3%;
+}
+
+/* Trim left and right margins to account for padding */
+.row-of-three .row {
+	margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row-of-three .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the boxes - rounded edges and shadows */
+.row-of-three .rounded-box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* Float two columns side by side i.e. 50% */
+
+.row-of-two {
+	margin: 0 auto;
+	width: 70%;
+	background-color: burlywood;
+}
+
+.row-of-two .column {
+  float: left;
+  width: 40%;
+  padding: 0 1%;
+}
+
+/* Trim left and right margins to account for padding */
+.row-of-two .row {
+	margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row-of-two .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the boxes - rounded edges and shadows */
+.row-of-two .rounded-box {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* Meet the Team Styling */
+
+.team-cover {
+	box-sizing: border-box;	
+	height: auto;
+	margin: 0 auto;
+	background-image: linear-gradient(360deg,#f4f4f4 0%,#ffffff 100%)!important;
+	padding-bottom: 10px;
+}
+
+#meet-the-team {
+	height: auto;
+   margin: 0 auto;
+}
+
+#meet-the-team h1 {
+	font-family: Montserrat, san-serif;
+	text-align: center;
+}
+
+#meet-the-team h3 {
+	margin-bottom: 30px;
+	font-family: Inconsolata, san-serif;
+	font-weight:500;
+	font-size: 25px;
+	color: orange;
+}
+
+#meet-the-team .column {
+  float: left;
+  width: 25%;
+  padding: 0 5px;
+ 
+}
+
+#meet-the-team .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 5px;
+}
+
+#meet-the-team .about-section {
+  padding: 10px;
+  text-align: center;
+  background-color: #474e5d;
+  color: white;
+}
+
+#meet-the-team .meet-the-team-container {
+  padding: 0 15px;
+}
+
+#meet-the-team .meet-the-team-container::after, #meet-the-team .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#meet-the-team .title {
+  color: orange;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+#meet-the-team .button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #3399FF;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+#meet-the-team .button:hover {
+  background-color: 	#3399FF;
+  text-decoration: underline;
+}
+
+/* Contact Us Styling */
+
+#contact-us {
+	margin: 0 auto;
+	width: 75%;
+    height: 600px;
+	box-sizing: border-box;	
+}
+
+
+#contact-us h1 {
+	font-family: Montserrat, san-serif;
+	text-align: center;
+	padding-bottom: 20px;
+}
+
+/* Style the container/contact section */
+#contact-us .container {
+  border-radius: 5px;
+  background-color: #EEEEEE;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+#contact-us .column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+#contact-us .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#contact-us .column {
+	box-sizing: border-box;
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #3399FF;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #99CCFF;
+}
+
+
+/* Style Footer */
+
+#company-footer-cover {
+	width: 100%;
+	height: 200px;
+	background-color: #3399FF;
+	padding-bottom: 70px;
+}
+
+#company-footer {
+	background-color: #3399FF;
+	width: 100%;
+  	box-sizing: border-box;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+	color: #fff;
+   font-family: Inconsolata, sans-serif;
+	font-weight: 400;
+	line-height: 1.5em;
+	font-size: medium;
+
+}
+
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 20px;
+}
+
+h2 {
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+}
+
+a {
+	color: #fff;
+	font-weight: bolder;
+	font-size: medium;
+	text-decoration: none;
+}
+
+#company-footer .column {
+   float: left;
+	width: 33%;
+	padding: 0 3%;
+}
+
+#company-footer .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Trim left and right margins to account for padding */
+#company-footer .row {
+	margin: 0 -5px;
+}
+
+/* Style Footer Bar */
+#footer-bar {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #000;
+   color: white;
+   text-align: center;
+   font-size: 18px;
+   padding: 10px 0 10px 0;
+}
+
+/* Style Independent Elements */
+
+/* Return to Page Top */
+.scroll-up {
+  position: fixed;
+  bottom: 7px;
+  right: 7px;
+  z-index: 999;
+}
+
+.scroll-up a {
+  background: #fff;
+  display: block;
+  height: 28px;
+  width: 28px;
+  text-align: center;
+  line-height: 28px;
+  font-size: 14px;
+  color: #000;
+  opacity: 0.6;
+  border-radius: 2px;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+  opacity: 1;
+  color: #000;
+}
 
 
 
