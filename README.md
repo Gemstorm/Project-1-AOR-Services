@@ -1,4 +1,4 @@
-![AOR lOGO](../assets/readme-assets/aor-services-README-version.png)
+![AOR lOGO](https://github.com/Gemstorm/Project-1-AOR-Services/Project-1-AOR-Services/assets/readme-assets/aor-services-README-version.png)
 
 Welcome to the redevelopment of AOR Services - a commercial WordPress website converted to a static HTML/CSS/JS website as part of the Code Institute Full Stack Developer Course. This is Milestone Project 1 for John C. for submission in August 2022 through Code Institute.
 
