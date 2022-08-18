@@ -1,4 +1,4 @@
-![CI logo](readme-assets/aor-services-README-version.png)
+![AOR logo](readme-assets/aor-services-README-version.png)
 
 Welcome to the redevelopment of AOR Services - a commercial WordPress website converted to a static HTML/CSS/JS website as part of the Code Institute Full Stack Developer Course. This is Milestone Project 1 for John C. for submission in August 2022 through Code Institute.
 
@@ -81,11 +81,14 @@ The logo was created by the WordPress Developer company called Conker which is n
 ### Wireframes
 Wireframes images can be seen below and also found in the "/assets/readme-assets" folder. It contains a design for the desktop and mobile version of the website.
 
-* Home Page 1: <br> ![Home Page 1](readme-assets/1-home-page-1.png)
-* Home Page 2: <br> ![Home Page 2](readme-assets/2-home-page-2.png)
-* Services Page: <br> ![About Us Page](readme-assets/3-services.png)
-* Contact Us Page: <br> ![Desktop Wireframe](readme-assets/4-contact-us.png)
 
+![Home Page 1](readme-assets/1-home-page-1.png)
+
+![Home Page 2](readme-assets/2-home-page-2.png)
+
+![About Us Page](readme-assets/3-services.png)
+
+![Contact Us](readme-assets/4-contact-us.png)
 
 ### Design Deviations
 The originbal wireframe design had multiple pages but this was changed to a one page design which was more efficient and reduces the need for visitors to click through to different pages. Simple scrolling will reveal all the company information keeping customer interaction at optimal levels.
