@@ -429,11 +429,20 @@
   display: table;
 }
 
-#meet-the-team .title {
+#meet-the-team .title .a {
   color: orange;
   padding-top: 25px;
   padding-bottom: 25px;
   text-align: center;
+  font-weight: bold;
+}
+
+#meet-the-team .a {
+  color: orange;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-weight: bold;
 }
 
 #meet-the-team .button {
