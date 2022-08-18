@@ -1,4 +1,4 @@
-![CI logo](assets/readme-assets/aor-services-README-version.png)
+![CI logo](readme-assets/aor-services-README-version.png)
 
 Welcome to the redevelopment of AOR Services - a commercial WordPress website converted to a static HTML/CSS/JS website as part of the Code Institute Full Stack Developer Course. This is Milestone Project 1 for John C. for submission in August 2022 through Code Institute.
 
@@ -49,7 +49,7 @@ The project is part of a Full Stack Developer course run by CodeInstitute. This 
 
 A mockup of the website can be seen below:
 
-![Website Mockup Image](assets/readme-assets/aor-mockup.png)
+![Website Mockup Image](readme-assets/aor-mockup.png)
 
 # User Experience Design
 ## Site Visitors / Customers
@@ -81,10 +81,10 @@ The logo was created by the WordPress Developer company called Conker which is n
 ### Wireframes
 Wireframes images can be seen below and also found in the "/assets/readme-assets" folder. It contains a design for the desktop and mobile version of the website.
 
-* Home Page 1: <br> ![Home Page 1](assets/readme-assets/1-home-page-1.png)
-* Home Page 2: <br> ![Home Page 2](assets/readme-assets/2-home-page-2.png)
-* Services Page: <br> ![About Us Page](assets/readme-assets/3-services.png)
-* Contact Us Page: <br> ![Desktop Wireframe](assets/readme-assets/4-contact-us.png)
+* Home Page 1: <br> ![Home Page 1](readme-assets/1-home-page-1.png)
+* Home Page 2: <br> ![Home Page 2](readme-assets/2-home-page-2.png)
+* Services Page: <br> ![About Us Page](readme-assets/3-services.png)
+* Contact Us Page: <br> ![Desktop Wireframe](readme-assets/4-contact-us.png)
 
 
 ### Design Deviations
@@ -151,7 +151,7 @@ CSS Stylesheet was run through the [W3C CSS Validator](https://jigsaw.w3.org/css
 ## Lighthouse
 Lighthouse Results for performance returns a 99 as seen below:
 
-![Home Page 1](assets/readme-assets/aor-lighthouse-performance.png)
+![Home Page 1](readme-assets/aor-lighthouse-performance.png)
 
 Initially a lower performance score was issued due to large size images but these were resized and compressed using Microsoft Image Composer and the significantly improved the performance score.
 
